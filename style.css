@@ -1,0 +1,327 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-header_container{
+    background-color: #FFF2E1;
+    height: 100vh;
+    border-bottom-left-radius: 40% 20%;
+    border-bottom-right-radius: 40% 20%;
+}
+/* navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 176px;
+    
+}
+/* navigation logo */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.Polygon-1{
+width: 40%;
+height: 40%;
+margin-left: 70%;
+top: 50px;
+
+}
+.Skilline{
+    margin-left: -25%;
+z-index: 2;
+}
+.right_nav{
+    display: flex;
+    width: 65%;
+    font-family: 'Poppins', sans-serif;
+}
+.nav_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+.nav_list>a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+.login_Btn{
+padding: 2% 5%;
+font-size: medium;
+background-color: white;
+border: white;
+border-radius: 30px;
+}
+.signUp_btn{
+padding: 2% 5%;
+font-size: medium;
+background-color: #F48C06;
+border: white;
+border-radius: 30px;
+}
+/* header */
+.hearder-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.right-header{
+width: 60%;
+height: 50%;
+
+}
+.header-img{
+    width: 75%;
+    height: 120%;
+    margin-left: 4%;
+    margin-top: -10%;
+}
+.left-header{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 40%;
+}
+.left-header h1{ 
+    font-size: 300%;
+    color: #2F327D;
+    text-shadow: #2F327D;
+}
+.left-header h1:before {
+    color:#F48C06;
+    content: "Studying";
+  }
+.left-header p{
+    width: 55%;
+    font-size: larger;
+}
+
+.header-btn-play{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.header-btn{
+    padding: 3% 5%;
+    font-size: medium;
+    background-color: #F48C06;
+    border: white;
+    border-radius: 30px;
+    }
+.play-btn{
+    background-color: white;
+    border: 2px white;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.play-btn img {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 8px;
+}
+/* ****************** career *************** */
+.career-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #696984;
+}
+
+.brands-name{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.brands-name ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.brands-name ul  img{
+    width: 70%;
+    height: 70%;
+}
+.google{
+color: #CFCFDE;
+font-size: 220%;
+margin-right: 6%;
+} 
+/* career-middle */
+.career-middle h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+.career-middle-heading:after {
+    color:#F48C06;
+    content: " Cloud Software.";
+  }
+.career-middle p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+   text-align: center;
+   font-size: large;
+   color: #696984;
+   font-family: 'Poppins', sans-serif;
+}
+/* career-buttom */
+.career-buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.career-buttom > div{
+    margin: 20px;
+}
+
+.career-buttom-1{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.career-buttom-1 > h2{
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.career-buttom-1 > p{
+    color: #696984;
+    font-family: 'Poppins', sans-serif;
+}
+  .career-buttom-badge-1{
+    
+    height: 70px;
+    width: 70px;
+    background: #5B72EE;
+    border: 1px #5B72EE;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: -60px;
+    
+    
+  }
+  .career-buttom-badge-1 img{
+    margin-top: 20px;
+    width: 40%;
+    height: 40%;
+  }
+.career-buttom-2{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+}
+.career-buttom-2 > h2{
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.career-buttom-2 > p{
+    color: #696984;
+    font-family: 'Poppins', sans-serif;
+}
+  .career-buttom-badge-2{
+    height: 70px;
+    width: 70px;
+    background: #F48C06;
+    border: 1px #F48C06;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: -60px;
+  }
+  .career-buttom-badge-2 img{
+    margin-top: 20px;
+    width: 40%;
+    height: 40%;
+  }
+.career-buttom-3{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.career-buttom-3 > h2{
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.career-buttom-3 > p{
+    color: #696984;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+  .career-buttom-badge-3{
+    height: 70px;
+    width: 70px;
+    background: #29B9E7;
+    border: 1px #29B9E7;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: -60px;
+  }
+  .career-buttom-badge-3 img{
+    margin-top: 20px;
+    width: 40%;
+    height: 40%;
+  }
+ /* ********* about ********* */
+ 
+ .about-heading > h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+ }
+ .about-heading > h2:after {
+    color:#F48C06;
+    content: " Skilline?";
+  }
+ .about-heading > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #696984;
+ }
+ .about-middle{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+ }
+ .about-image1 img{
+    width: 400px;
+    margin: 30px;
+ }
+ .about-image2 img{
+    width: 400px;
+    margin: 30px;
+ }
