@@ -1,6 +1,7 @@
 const hamburgerBtn = document.getElementById("hamburger");
 const togglenav = document.getElementById("toggle-nav");
 const closeBtn = document.getElementById("close-btn");
+
 // display side par
 const onClickHamburger = () => {
   // togglenav.style.display = "flex";
@@ -14,7 +15,6 @@ const onClickClose = () => {
   // togglenav.style.display = "none";
   togglenav.style.width = "0px";
   // hamburgerBtn.style.display = "block";
-
   console.log("clicked");
 };
 

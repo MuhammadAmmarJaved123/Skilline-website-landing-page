@@ -1171,9 +1171,10 @@ z-index: 2;
    position: fixed;
    z-index: 100;
    top: 0;
-right: 0;
+   right: 0;
    background-color: #111;
    overflow-x: hidden;
+   overflow-y: auto;
    transition: 0.3s;
    padding-top: 60px;
 }
@@ -1655,7 +1656,7 @@ and (max-device-width : 600px) {
    /* ***********header******* */
    .main-header_container{
       
-      height: 145vh;
+      height: 155vh;
      
   }
    .logo{
@@ -1733,10 +1734,10 @@ and (max-device-width : 600px) {
       width: 80%;
    }
    .left-header h1 {
-      font-size: larger;
+      font-size: xx-large;
    }
    .left-header p {
-      font-size: medium;
+      font-size: large;
       width: 90%;
    }
    .header-btn {
@@ -1772,14 +1773,14 @@ align-items: start;}
    .header-btn-play p{
       position: relative;
       font-size: medium;
-      left: 70px;
+      left: 85px;
       bottom: 57px;
    }
    /* **********careers******** */
 .career-main{
    display: flex;
    justify-content: center;
-   font-size: medium;
+   font-size: x-large;
 }
 .career-middle{
    display: flex;
@@ -1787,11 +1788,11 @@ align-items: start;}
    align-items: center;
 }
 .career-middle h1{
-   font-size: x-large;
+   font-size: xx-large;
    width: 80%;
 }
 .career-middle p{
-   font-size: medium;
+   font-size: x-large;
    width: 80%;
 }
 .career-buttom{
@@ -1809,11 +1810,11 @@ align-items: start;}
 }
 .about-heading h2{
    width: 80%;
-   font-size: x-large;
+   font-size: xx-large;
 }
 .about-heading p{
    width: 80%;
-   font-size: medium;
+   font-size: x-large;
 }
 .about-middle{
    display: flex;
@@ -1863,10 +1864,10 @@ left: 37%;
       align-items: center;
    }
    .about-buttom-left{ width: 80%;}
-   .about-buttom-left h2{ font-size: x-large;
+   .about-buttom-left h2{ font-size: xx-large;
    margin-top: -50px;}
-   .about-buttom-left p{ font-size: medium;}
-   .about-buttom-left a{ font-size: small;}
+   .about-buttom-left p{ font-size: x-large;}
+   .about-buttom-left a{ font-size: medium;}
    .about-buttom-right{
       display: flex;
       flex-direction: column;
@@ -1882,16 +1883,21 @@ left: 37%;
    flex-direction: column;
    align-items: center;
 }
-
+.feature-heading h2{
+   font-size: xx-large;
+}
 .feature-heading p{
    width: 80%;
-   font-size: medium;
+   font-size: x-large;
 }
 /* box 1 */
 .feature-first-box{
    display: flex;
    flex-direction: column;
    align-items: center;
+}
+.feature-first-box-right h2{
+   font-size: xx-large;
 }
 .feature-first-box-left  {
    width: 80%;
@@ -1910,6 +1916,15 @@ left: 37%;
   right: 800px;
    bottom: 240px;
 }
+.list1-paragraph{
+   font-size: larger;
+}
+.list2-paragraph{
+   font-size: larger;
+}
+.list3-paragraph{
+   font-size: larger;
+}
 .feature-first-box-right{
    width: 80%;
    margin-top: -200px;}
@@ -1927,9 +1942,11 @@ left: 37%;
    }
    .feature-box-2-left h2{
       width: 100%;
+      font-size: xx-large;
    }
    .feature-box-2-left p{
       width: 100%;
+      font-size: x-large;
    }
    .feature-box-2-right{
       width: 80%;
@@ -1950,9 +1967,11 @@ left: 37%;
 }
 .feature-box-3-right h2  {
    width: 100%;
+   font-size: xx-large;
 }
 .feature-box-3-right p {
    width: 100%;
+   font-size: x-large;
 }
 /* box 4 */
 .feature-container-box4{
@@ -1967,9 +1986,11 @@ left: 37%;
 }
 .feature-box-4-left h2{
    width: 100%;
+   font-size: xx-large;
 }
 .feature-box-4-left p{
    width: 100%;
+   font-size: x-large;
 }
 .feature-box-4-right{
    width: 80%;
@@ -1994,10 +2015,11 @@ left: 37%;
 }
 .feature-box-5-right h2  {
    width: 100%;
+   font-size: xx-large;
 }
 .feature-box-5-right p {
    width: 100%;
-   font-size: large;
+   font-size: x-large;
 }
    /* ********Integrations ******** */
 .integrations-container-box{
@@ -2017,11 +2039,11 @@ left: 37%;
 }
 .integrations-box-right h2 {
    width: 100%;
-   font-size: larger;
+   font-size: xx-large;
 }
 .integrations-box-right p {
    width: 100%;
-   font-size: medium
+   font-size: x-large
 }
    /*  ********* TESTIMONIAL ********* */
 .testimonial-container-box{
@@ -2037,10 +2059,11 @@ left: 37%;
    }
    .testimonial-box-left h2{
       width: 80%;
+      font-size: xx-large;
     }
    .testimonial-box-left p{
       width: 80%;
-      font-size: medium;
+      font-size: x-large;
     }
    .testimonial-box-left button {
    margin-right: 0;
@@ -2094,11 +2117,11 @@ left: 37%;
    
 }
 .news-top h2{
-   font-size: x-large;
+   font-size: xx-large;
 
 }
 .news-top p{
-   font-size: medium;
+   font-size: x-large;
 
 }
 .news-bottom{
@@ -2113,13 +2136,13 @@ left: 37%;
    font-size: small;
 }
 .news-left h3 {
-  font-size: large;
+  font-size: xx-large;
 }
 .news-left p {
-  font-size: medium;
+  font-size: x-large;
 }
 .news-left a {
-  font-size: small;
+  font-size: medium;
 }
 .news-right {
    width: 80%;
@@ -2230,12 +2253,13 @@ and (max-device-width : 768px) {
 
    }
    .left-header p {
-      font-size: large;
+      font-size: x-large;
       width: 90%;
    }
    .header-btn {
       font-size: medium;
       padding: 15px;
+      width: 60%;
    }
    .play-btn {
     margin-top: 10px;
@@ -2265,8 +2289,8 @@ and (max-device-width : 768px) {
    }
    .header-btn-play p{
       position: relative;
-      font-size: small;
-      left: 70px;
+      font-size: medium;
+      left: 90px;
       bottom: 52px;
    
       
@@ -2287,7 +2311,7 @@ and (max-device-width : 768px) {
    width: 80%;
 }
 .career-middle p{
-   font-size: large;
+   font-size: x-large;
    width: 80%;
 }
 .career-buttom{
@@ -2309,7 +2333,7 @@ and (max-device-width : 768px) {
 }
 .about-heading p{
    width: 80%;
-   font-size: large;
+   font-size: x-large;
 }
 .about-middle{
    display: flex;
@@ -2360,9 +2384,9 @@ left: 40%;
       align-items: center;
    }
    .about-buttom-left{ width: 80%;}
-   .about-buttom-left h2{ font-size: x-large;
+   .about-buttom-left h2{ font-size: xx-large;
    margin-top: -50px;}
-   .about-buttom-left p{ font-size: large;}
+   .about-buttom-left p{ font-size: x-large;}
    .about-buttom-left a{ font-size: medium;}
    .about-buttom-right{
       display: flex;
@@ -2385,13 +2409,16 @@ left: 40%;
 }
 .feature-heading p{
    width: 80%;
-   font-size: large;
+   font-size: x-large;
 }
 /* box 1 */
 .feature-first-box{
    display: flex;
    flex-direction: column;
    align-items: center;
+}
+.feature-first-box-right h2{
+   font-size: xx-large;
 }
 .feature-first-box-left  {
    width: 80%;
@@ -2413,6 +2440,9 @@ left: 40%;
 .feature-first-box-right{
    width: 80%;
    margin-top: -200px;}
+   .list1-paragraph{font-size: larger;}
+   .list2-paragraph{font-size: larger;}
+   .list3-paragraph{font-size: larger;}
    /* box 2 */
    .feature-container-box2{
       display: flex;
@@ -2427,9 +2457,11 @@ left: 40%;
    }
    .feature-box-2-left h2{
       width: 100%;
+      font-size: xx-large;
    }
    .feature-box-2-left p{
       width: 100%;
+      font-size: x-large;
    }
    .feature-box-2-right{
       width: 80%;
@@ -2450,10 +2482,11 @@ left: 40%;
 }
 .feature-box-3-right h2  {
    width: 100%;
+   font-size: xx-large;
 }
 .feature-box-3-right p {
    width: 100%;
-   font-size: large;
+   font-size: x-large;
    font-family: 'Poppins', sans-serif;
 }
 /* box 4 */
@@ -2469,9 +2502,11 @@ left: 40%;
 }
 .feature-box-4-left h2{
    width: 100%;
+   font-size: xx-large;
 }
 .feature-box-4-left p{
    width: 100%;
+   font-size: x-large;
 }
 .feature-box-4-right{
    width: 80%;
@@ -2496,10 +2531,11 @@ left: 40%;
 }
 .feature-box-5-right h2  {
    width: 100%;
+   font-size: xx-large;
 }
 .feature-box-5-right p {
    width: 100%;
-   font-size: large;
+   font-size: x-large;
 
 }
 .see-more-feature button{
@@ -2523,11 +2559,11 @@ left: 40%;
 }
 .integrations-box-right h2 {
    width: 100%;
-   font-size: x-large;
+   font-size: xx-large;
 }
 .integrations-box-right p {
    width: 100%;
-   font-size: large
+   font-size: x-large
 }
 .integrations-box-right button{
    font-size: medium;
@@ -2546,10 +2582,11 @@ left: 40%;
    }
    .testimonial-box-left h2{
       width: 80%;
+      font-size: xx-large;
     }
    .testimonial-box-left p{
       width: 80%;
-      font-size: medium;
+      font-size: x-large;
     }
    .testimonial-box-left button {
    margin-right: 0;
@@ -2605,11 +2642,12 @@ left: 40%;
    
 }
 .news-top h2{
-   font-size: x-large;
-
+   font-size: xx-large;
+width: 100%;
 }
 .news-top p{
-   font-size: medium;
+   font-size: x-large;
+
 
 }
 .news-bottom{
@@ -2624,10 +2662,10 @@ left: 40%;
    font-size: medium;
 }
 .news-left h3 {
-  font-size: large;
+  font-size: xx-large;
 }
 .news-left p {
-  font-size: medium;
+  font-size: x-large;
 }
 .news-left a {
   font-size: medium;
