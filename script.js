@@ -3,14 +3,18 @@ const togglenav = document.getElementById("toggle-nav");
 const closeBtn = document.getElementById("close-btn");
 // display side par
 const onClickHamburger = () => {
-  togglenav.style.display = "flex";
-  hamburgerBtn.style.display = "none";
+  // togglenav.style.display = "flex";
+  togglenav.style.width = "180px";
+  // hamburgerBtn.style.display = "none";
+
   console.log("clicked");
 };
 // close side bar
 const onClickClose = () => {
-  togglenav.style.display = "none";
-  hamburgerBtn.style.display = "block";
+  // togglenav.style.display = "none";
+  togglenav.style.width = "0px";
+  // hamburgerBtn.style.display = "block";
+
   console.log("clicked");
 };
 
