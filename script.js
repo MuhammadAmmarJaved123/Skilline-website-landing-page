@@ -1,6 +1,7 @@
 const hamburgerBtn = document.getElementById("hamburger");
 const togglenav = document.getElementById("toggle-nav");
 const closeBtn = document.getElementById("close-btn");
+const closeBtnall = document.getElementById("main-header_container");
 
 // display side par
 const onClickHamburger = () => {
@@ -17,6 +18,13 @@ const onClickClose = () => {
   // hamburgerBtn.style.display = "block";
   console.log("clicked");
 };
+const onClickCloseall = () => {
+  // togglenav.style.display = "none";
+  togglenav.style.width = "0px";
+  // hamburgerBtn.style.display = "block";
+  console.log("clicked");
+};
 
 hamburgerBtn.addEventListener("click", onClickHamburger);
 closeBtn.addEventListener("click", onClickClose);
+closeBtnall.addEventListener("click", onClickCloseall);

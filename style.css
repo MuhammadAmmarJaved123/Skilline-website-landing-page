@@ -10,6 +10,13 @@ body{
     border-bottom-left-radius: 40% 20%;
     border-bottom-right-radius: 40% 20%;
 }
+#hamburger{
+   position: absolute;
+   
+   bottom: 590px;
+   left: 30px;
+   width: fit-content;
+}
 /* navigation */
 nav{
     display: flex;
@@ -1160,6 +1167,7 @@ z-index: 2;
   display: block;
   margin-left: 70%;
    width: 80%;
+   width: fit-content;
   }
   .toggle-nav{
     display: flex;
@@ -1685,7 +1693,8 @@ and (max-device-width : 600px) {
      #hamburger{
       display: block;
       margin-left: 80%;
-       width: 80%;
+       width: fit-content
+
       }
       .toggle-nav{
         display: flex;
@@ -2199,7 +2208,7 @@ and (max-device-width : 768px) {
      #hamburger{
       display: block;
       margin-left: 80%;
-       width: 80%;
+       width: fit-content
       }
       .toggle-nav{
         display: flex;
