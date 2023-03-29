@@ -1498,7 +1498,7 @@ padding: 8px;
    font-size: large
 }
 .integrations-box-right button {
-   width: 100%;
+   width: 95%;
    font-size: medium;
 }
 /*  ********* TESTIMONIAL ********* */
@@ -1523,8 +1523,8 @@ align-items: center;
  }
 .testimonial-box-left button {
 margin-right: 0;
-padding: 7px;
-width: 70%;
+padding: 12px;
+width: 80%;
 font-size: medium;
  }
  .testimonial-box-left img{
