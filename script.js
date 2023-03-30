@@ -1,9 +1,9 @@
 const hamburgerBtn = document.getElementById("hamburger");
 const togglenav = document.getElementById("toggle-nav");
 const closeBtn = document.getElementById("close-btn");
-const closeBtnall = document.getElementById("main-header_container");
 
 // display side par
+
 const onClickHamburger = () => {
   // togglenav.style.display = "flex";
   togglenav.style.width = "180px";
@@ -27,4 +27,3 @@ const onClickCloseall = () => {
 
 hamburgerBtn.addEventListener("click", onClickHamburger);
 closeBtn.addEventListener("click", onClickClose);
-closeBtnall.addEventListener("click", onClickCloseall);
