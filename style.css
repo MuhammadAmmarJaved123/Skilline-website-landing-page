@@ -1181,8 +1181,7 @@ z-index: 2;
    top: 0;
    right: 0;
    background-color: #111;
-   overflow-x: hidden;
-   overflow-y: none;
+   overflow: auto;
    transition: 0.3s;
    padding-top: 60px;
 }

@@ -1,12 +1,14 @@
 const hamburgerBtn = document.getElementById("hamburger");
 const togglenav = document.getElementById("toggle-nav");
 const closeBtn = document.getElementById("close-btn");
+const body = document.getElementById("body");
 
 // display side par
 
 const onClickHamburger = () => {
   // togglenav.style.display = "flex";
   togglenav.style.width = "180px";
+  body.style.overflow = "hidden";
   // hamburgerBtn.style.display = "none";
 
   console.log("clicked");
@@ -15,12 +17,7 @@ const onClickHamburger = () => {
 const onClickClose = () => {
   // togglenav.style.display = "none";
   togglenav.style.width = "0px";
-  // hamburgerBtn.style.display = "block";
-  console.log("clicked");
-};
-const onClickCloseall = () => {
-  // togglenav.style.display = "none";
-  togglenav.style.width = "0px";
+  body.style.overflow = "visible";
   // hamburgerBtn.style.display = "block";
   console.log("clicked");
 };
